@@ -1,8 +1,15 @@
 package com.example.finalproject.retrofit
 
 import android.telecom.Call
-import retrofit2.http.GET
+import retrofit2.http.*
 
 interface LoginInterface {
+    @POST("/api/POSTS")
+    fun login()
+    // ???????????????????????
+
+
+
+
 
 }

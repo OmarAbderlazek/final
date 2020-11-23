@@ -4,6 +4,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface PostsInterface {
-    @GET("api/posts")
+    @GET("/api/posts")
     fun getAllPosts(): Call<List<RecyclerviewData>>
 }
